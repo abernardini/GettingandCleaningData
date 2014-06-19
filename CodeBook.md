@@ -1,10 +1,9 @@
 ### DATA DICTIONARY
 
-1. Original data from:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-
-2. All variable concerning measurements have been normalized and bounded within [-1,1]
-
-3. 16th June 2014
+    - Original data from:
+      https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+    - All variable concerning measurements have been normalized and bounded within [-1,1]
+    - 16th June 2014
 
 
 
@@ -12,8 +11,9 @@
 
 
 
-tBodyAcc\_mean\_X, \_Y, \_Z 
-<!-- --> Mean value of time domain body acceleration signal in X, Y, Z direction respectively from the accelometer
+    tBodyAcc_mean_X, _Y, _Z 
+           Mean value of time domain body acceleration signal in X, Y, Z direction respectively 
+           from the accelometer
 
 tBodyAcc\_std\_X, *Y, *Z Standart deviation of time domain body
 acceleration signal in X, Y, Z direction respectively from the
