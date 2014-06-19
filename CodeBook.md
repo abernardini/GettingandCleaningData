@@ -39,7 +39,6 @@
           Mean value of time domain body acceleration signal in X, Y, Z direction respectively 
           from the gyroscope
     
-
     tBodyGyro_std_X, _Y, _Z 
           Standard deviation of time domain body acceleration signal in X, Y, Z direction respectively 
           from the gyroscope
@@ -87,59 +86,68 @@
           Mean value of frecuency domain body acceleration signal in X, Y, Z direction respectively
           from the accelometer
 
-fBodyAcc\_std\_X, *Y, *Z Satndard deviation of frecuency domain body
-acceleration signal in X, Y, Z direction respectively from the
-accelometer
+    fBodyAcc_std_X, _Y, _Z 
+          Standard deviation of frecuency domain body acceleration signal in X, Y, Z direction respectively 
+          from the accelometer
 
-fBodyAccJerk\_mean\_X, *Y, *Z Mean value of frecuency domain Jerk signal
-(time derivative of body acceleration) in X, Y, Z direction respectively
-from the accelometer
+    fBodyAccJerk_mean_X, _Y, _Z 
+          Mean value of frecuency domain Jerk signal (time derivative of body acceleration) in X, Y, Z direction                   respectively from the accelometer
 
-fBodyAccJerk\_std\_X Standard deviation of frecuency domain Jerk signal
-(time derivative of body acceleration) in X, Y, Z direction respectively
-from the accelometer
+    fBodyAccJerk_std_X 
+          Standard deviation of frecuency domain Jerk signal (time derivative of body acceleration) in X, Y, Z 
+          direction respectively from the accelometer
 
-fBodyGyro\_mean\_X, \_Y, Z Mean value of frecuency domain body
-acceleration signal in X, Y, Z direction respectively from the gyroscope
+    fBodyGyro_mean\_X, _Y, _Z 
+          Mean value of frecuency domain body acceleration signal in X, Y, Z direction respectively 
+          from the gyroscope
 
-fBodyGyro\_std\_X Satndard deviation of frecuency domain body
-acceleration signal in X, Y, Z direction respectively from the gyroscope
+    fBodyGyro_std_X 
+          Standard deviation of frecuency domain body acceleration signal in X, Y, Z direction respectively
+          from the gyroscope
 
-fBodyAccMag\_mean Mean value of the magnitud of frequency domain body
-acceleration signal from the accelerometer
+    fBodyAccMag_mean 
+          Mean value of the magnitud of frequency domain body acceleration signal from the accelerometer
 
-fBodyAccMag\_std Standard deviation of the magnitud of frequency domain
-body acceleration signal from the accelerometer
+    fBodyAccMag_std 
+          Standard deviation of the magnitud of frequency domain body acceleration signal from the accelerometer
 
-fBodyAccJerkMag\_mean Mean value of the magnitud of frequency domain
-Jerk signal (time derivative of body acceleration) from the
-accelerometer
+    fBodyAccJerkMag_mean
+          Mean value of the magnitud of frequency domain Jerk signal (time derivative of body acceleration) 
+          from the accelerometer
 
-fBodyAccJerkMag\_std Standard deviation of the magnitud of frequency
-domain Jerk signal (time derivative of body acceleration) from the
-accelerometer
+    fBodyAccJerkMag_std 
+          Standard deviation of the magnitud of frequency domain Jerk signal (time derivative of body acceleration) 
+          from the accelerometer
 
-fBodyGyroMag\_mean Mean value of the magnitud of frequency domain body
-acceleration signal from the gyroscope
+    fBodyGyroMag_mean 
+          Mean value of the magnitud of frequency domain body acceleration signal from the gyroscope
 
-fBodyGyroMag\_std Standard deviation of the magnitud of frequency domain
-body acceleration signal from the gyroscope
+    fBodyGyroMag_std 
+          Standard deviation of the magnitud of frequency domain body acceleration signal from the gyroscope
 
-fBodyGyroJerkMag\_mean Mean value of the magnitud of frequency domain
-Jerk signal (time derivative of body acceleration) from the gyroscope
+    fBodyGyroJerkMag_mean 
+          Mean value of the magnitud of frequency domain Jerk signal (time derivative of body acceleration) 
+          from the gyroscope
 
-fBodyGyroJerkMag\_std Standard deviation of the magnitud of frequency
-domain Jerk signal (time derivative of body acceleration) from the
-gyroscope
+    fBodyGyroJerkMag_std 
+          Standard deviation of the magnitud of frequency domain Jerk signal (time derivative of body acceleration)
+          from the gyroscope
 
-Activity Activity label - WALKING - WALKING UPSTAIRS - WALKING
-DOWNSTAIRS - SITTING - STAYING - LAYING
+    Activity 
+          Activity label 
+          - WALKING 
+          - WALKING UPSTAIRS 
+          - WALKING DOWNSTAIRS 
+          - SITTING 
+          - STAYING 
+          - LAYING
 
-Subject Identifier of the subject who carried out the experiment 1... 30
-integer identifier
+    Subject 
+          Identifier of the subject who carried out the experiment 1... 30
+          integer identifier
 
-TIDY DATA SET 2
----------------
+### TIDY DATA SET 2
+
 
 Subject As in TIDY DATA SET 1
 
