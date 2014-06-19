@@ -15,9 +15,10 @@
            Mean value of time domain body acceleration signal in X, Y, Z direction respectively 
            from the accelometer
 
-tBodyAcc\_std\_X, *Y, *Z Standart deviation of time domain body
-acceleration signal in X, Y, Z direction respectively from the
-accelometer
+    
+    tBodyAcc_std_X, _Y, _Z 
+           Standart deviation of time domain body acceleration signal in X, Y, Z direction respectively 
+           from the accelometer
 
 tGravityAcc\_mean\_X, *Y, *Z Mean value of time domain gravity
 acceleration signal in X, Y, Z direction respectively from the
