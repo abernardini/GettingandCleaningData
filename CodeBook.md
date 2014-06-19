@@ -143,26 +143,27 @@
           - LAYING
 
     Subject 
-          Identifier of the subject who carried out the experiment 1... 30
-          integer identifier
+          Identifier of the subject who carried out the experiment
+          1... 30 integer identifier
 
 ### TIDY DATA SET 2
 
 
-Subject As in TIDY DATA SET 1
+    Subject 
+          As in TIDY DATA SET 1
 
-Activity As in TIDY DATA SET 1
+    Activity 
+          As in TIDY DATA SET 1
 
-All other variables are average values over each subject and activity of
-the variables in TIDY DATA SET 1:
+    All other variables are average values over each subject and activity of the variables in TIDY DATA SET 1:
 
-Avg\_tBodyAcc\_mean\_X, *Y, *Z Average value over each subject and
-activity of the mean value of time domain body acceleration signal in X,
-Y, Z direction respectively from the accelometer
+    Avg_tBodyAcc_mean_X, _Y, _Z
+          Average value over each subject and activity of the mean value of time domain body acceleration signal
+          in X, Y, Z direction respectively from the accelometer
 
-Avg\_tBodyAcc\_std\_X, *Y, *Z Average value over each subject and
-activity of the standart deviation of time domain body acceleration
-signal in X, Y, Z direction respectively from the accelometer
+    Avg_tBodyAcc_std_X, _Y, _Z 
+          Average value over each subject and activity of the standart deviation of time domain body acceleration
+          signal in X, Y, Z direction respectively from the accelometer
 
 ....
 
