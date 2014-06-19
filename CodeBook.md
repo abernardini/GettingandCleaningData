@@ -20,24 +20,25 @@
            Standart deviation of time domain body acceleration signal in X, Y, Z direction respectively 
            from the accelometer
 
-tGravityAcc\_mean\_X, *Y, *Z Mean value of time domain gravity
-acceleration signal in X, Y, Z direction respectively from the
-accelometer
+    tGravityAcc_mean_X, _Y, _Z 
+           Mean value of time domain gravity acceleration signal in X, Y, Z direction respectively 
+           from the accelometer
 
-tGravityAcc\_std\_X, *Y, *Z Standart deviation of time domain gravity
-acceleration signal in X, Y, Z direction respectively from the
-accelometer
+    tGravityAcc_std_X, _Y, _Z 
+           Standart deviation of time domain gravity acceleration signal in X, Y, Z direction respectively
+           from the accelometer
 
-tBodyAccJerk\_mean\_X, *Y, *Z Mean value of Jerk signal (time derivative
-of body acceleration) in X, Y, Z direction respectively from the
-accelometer
+    tBodyAccJerk_mean_X, _Y, _Z 
+           Mean value of Jerk signal (time derivative of body acceleration) in X, Y, Z direction respectively
+           from the accelometer
 
-tBodyAccJerk\_std\_X, *Y, *Z Standard deviation of Jerk signal (time
-derivative of body acceleration) in X, Y, Z direction respectively from
-the accelometer
+    tBodyAccJerk_std_X, _Y, _Z 
+          Standard deviation of Jerk signal (time derivative of body acceleration) in X, Y, Z direction
+          respectively from the accelometer
 
-tBodyGyro\_mean\_X, *Y, *Z Mean value of time domain body acceleration
-signal in X, Y, Z direction respectively from the gyroscope
+    tBodyGyro_mean_X, _Y, _Z Mean value of time domain body acceleration signal in X, Y, Z direction 
+          respectively from the gyroscope
+    
 
 tBodyGyro\_std\_X, *Y, *Z Standard deviation of time domain body
 acceleration signal in X, Y, Z direction respectively from the gyroscope
