@@ -171,6 +171,6 @@
 
 ....
 
-Aveg\_fBodyGyroJerkMag\_std Average value over each subject and activity
-of the standard deviation of the magnitud of frequency domain Jerk
-signal (time derivative of body acceleration) from the gyroscope
+    Aveg_fBodyGyroJerkMag_std 
+          Average value over each subject and activity of the standard deviation of the magnitud of frequency 
+          domain Jerk signal (time derivative of body acceleration) from the gyroscope
