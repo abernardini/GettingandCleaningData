@@ -27,7 +27,9 @@ You can find the following files:
 
 R SCRIPT DESCRIPTION
 
+
 Before running the R script:
+
 1.   downloads .zip file
 2.   unzips the archive
 3.   copy the following files into your working directory: 
@@ -46,6 +48,7 @@ Before running the R script:
             
             
         
+
 run_analysis.R does the following:
 
 1. Merges the training and the test sets to create one data set.
