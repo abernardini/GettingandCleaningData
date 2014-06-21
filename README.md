@@ -79,8 +79,7 @@ run_analysis.R does the following:
    At this step the script extracts and saves also the names of the features containing the patterns mean() and std()
    and modifies these names in order to use them as names for the resulting tidy data set. with the objetive of making      the names readable in R, puntuation as "-" and "()" have to be removed (gsub() function).
    Furthrmore in feature.txt there is a mistake with some features whose name contains twice the word Body          
-   (tBodyBody...). 
-   In this case the script eliminates once the word Body.
+   (tBodyBody...). In this case the script eliminates once the word Body.
 
 
 3. Uses descriptive activity names to name the activities in the data set
@@ -97,8 +96,8 @@ run_analysis.R does the following:
    The second tidy data set is obtained through two steps. Firstly, the tidy data set obtained at step 4 is re-organized 
    so that for each subject (from 1 to 30) and each activity (melt() function) there exist a comlumn with the     
    measurement's name and another with the corresponding value. Finally the average of all variable is 
-   calculated for each subject and each activity (cast() function).
-   This second tidy data set is saved in tidy_data_set2.txt. 
+   calculated for each subject and each activity (cast() function). This second tidy data set is saved in    
+   tidy_data_set2.txt. 
    For loading it: read.table("tidy_data_set2.txt", header=T)
 
 
