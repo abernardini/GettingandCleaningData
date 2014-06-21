@@ -63,6 +63,7 @@ Before running the R script:
 run_analysis.R does the following:
 
 1. Merges the training and the test sets to create one data set.
+
    The dimensions of the train and test sets suggest:
      - creating a bigger train set, adding to X_train matrix the comlums of y_train and subject_train (cbind() function)
      - creating a bigger test set, adding to X_test matrix the comlumns of y_test and subject_test (cbind() function)
@@ -70,6 +71,7 @@ run_analysis.R does the following:
 
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+
    From file features.txt the script extracts (grep() funciton) the indices (from 1 to 561) of the features whose name 
    contains the patterns "mean()" and "std()". 
    Two more indices are added to the list, the indices of the activity (562) and the subject (563).Thus, set from step 1
@@ -82,17 +84,20 @@ run_analysis.R does the following:
    (tBodyBody...). In this case the script eliminates once the word Body.
 
 
-3. Uses descriptive activity names to name the activities in the data set
+3. Uses descriptive activity names to name the activities in the data set.
+
    The script finds (which() function) each activity integer (1-6) to substitude it with the corresponding descriptive      activity name.
 
 
 4. Appropriately labels the data set with descriptive variable names.
+
    The script assign to the data frame obtained at step 4, the names obtained at step 2.
    This first tidy data set is saved in tidy_data_set1.txt. 
    For loading it: read.table("tidy_data_set1.txt", header=T)
 
     
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
    The second tidy data set is obtained through two steps. Firstly, the tidy data set obtained at step 4 is re-organized 
    so that for each subject (from 1 to 30) and each activity (melt() function) there exist a comlumn with the     
    measurement's name and another with the corresponding value. Finally the average of all variable is 
