@@ -14,8 +14,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 You can find the following files:
 - README.txt
-- run_analysis.R: R script processing the raw data set to obtain a tidy data set
-                  It has been created with R version 3.0.1 on  Windows XP
+- run_analysis.R: R script processing the raw data set to obtain a tidy data set, 
+  created with R version 3.0.1 on Windows XP
 - CodeBook.md: Code book describing each variable and its values in the tidy data set
 
 
@@ -43,10 +43,18 @@ Before running the R script:
           - features.txt: list of all features
           
 4.   copy run_analysis.R in your working directory
-5.   run the script with:
-            source("run_analysis.R")
-6.   tidy data sets will be saved in tidy_sata_set1.txt and tidy_data_set2.txt.
-     For loading and inspecting them read.table("tidy_data_set*.txt", header=T)
+5.   run the script on R Console with source("run_analysis.R")
+6.   tidy data sets will be saved in 
+
+          - tidy_sata_set1.txt,
+          - tidy_data_set2.txt.
+          
+     For loading and inspecting them 
+     
+          - set1 <- read.table("tidy_data_set1.txt", header=T)
+          - set2 <- read.table("tidy_data_set2.txt", header=T)
+          
+     respectively.     
 
             
             
