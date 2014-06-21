@@ -100,9 +100,9 @@ run_analysis.R does the following:
 
    The second tidy data set is obtained through two steps. Firstly, the tidy data set obtained at step 4 is re-organized 
    so that for each subject (from 1 to 30) and each activity (melt() function) there exist a comlumn with the     
-   measurement's name and another with the corresponding value. Finally the average of all variable is 
-   calculated for each subject and each activity (cast() function). This second tidy data set is saved in    
-   tidy_data_set2.txt. 
+   name of the measurements and another with the corresponding value (nrow=679734, ncol=4). Finally the average of all      variable is calculated (cast() function) for each subject and each activity and the data frame reorganized (nrow=180,    ncol=68). The name of the meaurements are also modified, adding to the previous names the prefix "Avg_" (gsub())    
+   standing for average.
+   This second tidy data set is saved in tidy_data_set2.txt. 
    For loading it: read.table("tidy_data_set2.txt", header=T)
 
 
