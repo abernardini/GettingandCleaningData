@@ -33,6 +33,7 @@ Before running the R script:
 1.   downloads .zip file
 2.   unzips the archive
 3.   copy the following files into your working directory: 
+4.   
           - X_train.txt : triaxial acceleration and angular velocity in time and frequancy domain, measurements
           - y_train.txt : activity, integer from 1 to 6
           - subject_train.txt: subject, integer from 1 to 30
@@ -40,8 +41,10 @@ Before running the R script:
           - y_test.txt  : same as for train
           - subject_test.txt : same as for train
           - features.txt: list of all features
+          
 4.   copy run_analysis.R in your working directory
-5.   run the script with source("run_analysis.R")
+5.   run the script with:
+            source("run_analysis.R")
 6.   tidy data sets will be saved in tidy_sata_set1.txt and tidy_data_set2.txt.
      For loading and inspecting them read.table("tidy_data_set*.txt", header=T)
 
